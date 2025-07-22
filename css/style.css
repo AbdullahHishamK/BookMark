@@ -1,5 +1,6 @@
 .background{
     background-color: #f7ecde;
+    min-height: 100vh
 }
 h1{
     font-family: "Pacifico", cursive;
@@ -61,4 +62,68 @@ main h1::before {
 }
 .box-info {
     background-color: #0007;
+}
+body.dark-mode {
+  background-color: #181a1b !important;
+  color: #f1f1f1 !important;
+}
+
+body.dark-mode .interface {
+  background-color: #23272b !important;
+  color: #f1f1f1 !important;
+}
+
+body.dark-mode .bookmark-main {
+  background-color: #23272b !important;
+  color: #f1f1f1 !important;
+}
+
+body.dark-mode .table {
+  background-color: #23272b !important;
+  color: #f1f1f1 !important;
+}
+
+body.dark-mode .table th,
+body.dark-mode .table td {
+  background-color: #23272b !important;
+  color: #f1f1f1 !important;
+}
+
+body.dark-mode .form-control {
+  background-color: #181a1b !important;
+  color: #f1f1f1 !important;
+  border-color: #444;
+}
+
+body.dark-mode .btn-submit,
+body.dark-mode .btn-secondary {
+  background-color: #343a40 !important;
+  color: #f1f1f1 !important;
+  border: none;
+}
+/* Make the main container match dark mode */
+body.dark-mode .container {
+  background-color: #23272b !important;
+  color: #f1f1f1 !important;
+}
+
+body.dark-mode.background {
+    background-color: #181a1b !important;
+    min-height: 100vh; 
+}
+body.dark-mode,
+body.dark-mode.background,
+body.dark-mode html,
+body.dark-mode #root {
+    background-color: #181a1b !important;
+    min-height: 100vh;
+}
+/* Ensure the entire page is the same color in dark mode */
+body.dark-mode,
+body.dark-mode.background,
+body.dark-mode html,
+html.dark-mode,
+html.dark-mode body {
+    background-color: #181a1b !important;
+    min-height: 100vh;
 }
